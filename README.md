@@ -98,6 +98,7 @@ Steps followed to build the report:
    - Customer details
    - Pivot table
 
+https://github.com/Dnyanu2027/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pdf
 ## Skills Demonstrated
 
 - Translating business requirements into analysis deliverables
