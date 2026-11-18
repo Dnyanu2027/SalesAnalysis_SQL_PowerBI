@@ -74,15 +74,6 @@ Before writing any code, review the sample **business request**, **demand overvi
 - `CASE` expressions for conditional logic
 - `IFNULL()` / `COALESCE()` for handling missing values
 
-**T-SQL to MySQL equivalents**
-
-| SQL Server (T-SQL) | MySQL |
-|--------------------|-------|
-| `ISNULL(col, x)` | `IFNULL(col, x)` |
-| `SELECT TOP 10 ...` | `SELECT ... LIMIT 10` |
-| `FirstName + ' ' + LastName` | `CONCAT(FirstName, ' ', LastName)` |
-| `GETDATE()` | `NOW()` |
-
 The cleaned query results are then loaded into Power BI through the MySQL connector.
 
 ## Power BI Dashboard
@@ -106,11 +97,6 @@ Steps followed to build the report:
    - Gradient bar chart colouring
    - Customer details
    - Pivot table
-
-## Dashboard Preview
-
-- **Interactive version:** [Download `Sales Report.pbix`](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pbix) and open it in Power BI Desktop.
-- **Static version:** [View the PDF screenshot](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pdf).
 
 ## Skills Demonstrated
 
